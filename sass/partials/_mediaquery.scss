@@ -1,0 +1,53 @@
+@import 'colors';
+@import 'FontSize';
+
+@media(min-width:320px) and (max-width:769px) {
+
+    @mixin Logos-mobil {
+        img {
+            width: 5rem;
+            height: 5rem;
+        }
+    }
+
+    .ContainerHeader,
+    .containerFooter {
+        @include Logos-mobil;
+    }
+
+    main {
+        margin-top: 6.5rem;
+        height: 40rem;
+
+        .containerMain {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .containerMain__img {
+                width: 16rem;
+                height: 20rem;
+            }
+        }
+    }
+
+    .containerSkills {
+
+        .containerSkills__FrontEnd,
+        .containerSkills__BackEnd,
+        .containerSkills__More {
+            margin: 1rem 0rem;
+
+        }
+    }
+
+    .containerContact {
+        margin-top: 4rem;
+    }
+
+    .Proximamente {
+        h3 {
+            font-size: $titleH3;
+        }
+    }
+}

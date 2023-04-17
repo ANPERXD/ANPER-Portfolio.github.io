@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.sectionIndex__container1:hover {
+    width: 21rem;
+    height: 21rem;
+}
+
+.sectionIndex__container2:hover {
+    width: 21rem;
+    height: 21rem;
+}
+
+.sectionIndex__container3:hover {
+    width: 21rem;
+    height: 21rem;
+}
+
+.container__Title {
+    margin-top: 10rem;
+    text-align: center;
+    text-decoration: underline;
+
+    h3 {
+        font-size: $titleH3;
+    }
+}

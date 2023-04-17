@@ -1,0 +1,439 @@
+.ContainerHeader img,
+.containerFooter img {
+  width: 7rem;
+  height: 7rem;
+  transition: all 1s;
+}
+.ContainerHeader img:hover,
+.containerFooter img:hover {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+.ContainerHeader a svg,
+.containerFooter a svg {
+  width: 2rem;
+  height: 2rem;
+  color: #FFA106;
+}
+
+/*header*/
+.ContainerHeader {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  top: 0;
+  z-index: 963;
+}
+.ContainerHeader div a {
+  font-size: 1.5rem;
+}
+
+/*footer*/
+footer {
+  background-color: #212529;
+  width: 100%;
+  height: 6rem;
+}
+footer .containerFooter-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .containerFooter {
+  margin-top: 1rem;
+}
+footer .containerFooter__copi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  color: #EBECF0;
+  margin: 0;
+}
+
+/*Main*/
+main {
+  margin-top: 8.5rem;
+  width: 100%;
+  height: 45.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../doc/img/fondo/fondomain.png);
+  background-attachment: fixed;
+}
+main .containerMain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgba(33, 37, 41, 0.7294117647);
+  border-radius: 3rem;
+  width: 42rem;
+  height: 22rem;
+}
+main .containerMain .containerMain__img {
+  width: 17rem;
+  height: 15.5rem;
+  background-color: #FF9800;
+  border-radius: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../doc/img/personaje/anpermain.png);
+  background-position-x: 0.5rem;
+  background-position-Y: 0.5rem;
+}
+main .containerMain__Text {
+  margin-left: 1rem;
+}
+main .containerMain__Text h1 {
+  font-size: 2rem;
+  color: #9B9D9E;
+}
+main .containerMain__Text p {
+  font-size: 1.5rem;
+  color: #9B9D9E;
+}
+main .containerMain__Text span {
+  font-size: 1.5rem;
+  color: #FF9800;
+}
+main .containerMain__Text b {
+  color: #FF9800;
+}
+
+.sectionIndex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 5rem;
+  flex-wrap: wrap;
+  margin: 2rem 0rem;
+}
+.sectionIndex a {
+  text-decoration: none;
+}
+.sectionIndex .border {
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
+}
+.sectionIndex .sectionIndex__container1 {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s;
+  background-image: url(../doc/img/fondo/fondoskills.png);
+}
+.sectionIndex .sectionIndex__container2 {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s;
+  background-image: url(../doc/img/fondo/fondoproyectos.png);
+}
+.sectionIndex .sectionIndex__container3 {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s;
+  background-image: url(../doc/img/fondo/fondolabora.png);
+}
+.sectionIndex p {
+  color: #EBECF0;
+  font-size: 2.4rem;
+  background-color: rgba(33, 37, 41, 0.7294117647);
+  border-radius: 1rem;
+  font-weight: 600;
+}
+
+.containerSkills {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.containerSkills .containerSkills__FrontEnd,
+.containerSkills .containerSkills__BackEnd,
+.containerSkills .containerSkills__More {
+  margin-top: 5.7rem;
+  margin-bottom: 9rem;
+  width: 25rem;
+  height: auto;
+  background-color: #4E5B60;
+  text-align: center;
+  border-radius: 2rem;
+}
+.containerSkills .containerSkills__FrontEnd .Logos,
+.containerSkills .containerSkills__BackEnd .Logos,
+.containerSkills .containerSkills__More .Logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2rem;
+}
+.containerSkills .containerSkills__FrontEnd .containerSkills__FrontEnd-img img,
+.containerSkills .containerSkills__FrontEnd .containerSkills__BackEnd-img img,
+.containerSkills .containerSkills__FrontEnd .containerSkills__others-img img,
+.containerSkills .containerSkills__BackEnd .containerSkills__FrontEnd-img img,
+.containerSkills .containerSkills__BackEnd .containerSkills__BackEnd-img img,
+.containerSkills .containerSkills__BackEnd .containerSkills__others-img img,
+.containerSkills .containerSkills__More .containerSkills__FrontEnd-img img,
+.containerSkills .containerSkills__More .containerSkills__BackEnd-img img,
+.containerSkills .containerSkills__More .containerSkills__others-img img {
+  width: 6.6rem;
+  height: auto;
+}
+
+.containerProjects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 6.4rem 0rem;
+  gap: 2rem;
+}
+.containerProjects .containerProjects__pages {
+  width: 26rem;
+  height: 20rem;
+  background-color: #212529;
+  border-radius: 2rem;
+}
+.containerProjects .containerProjects__pages img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.containerLaboratory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 2.8rem;
+}
+.containerLaboratory a {
+  text-decoration: none;
+  color: #212529;
+}
+.containerLaboratory .containerLaboratory__pages {
+  background-color: #4E5B60;
+  width: 20rem;
+  height: auto;
+  text-align: center;
+  border-radius: 1.5rem;
+}
+.containerLaboratory .containerLaboratory__pages .ContainerPages {
+  width: 19rem;
+  height: 15rem;
+  background-color: #4E5B60;
+  margin: 1rem auto;
+}
+.containerLaboratory .containerLaboratory__pages .ContainerPages img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.containerLaboratory .containerLaboratory__pages .ContainerPages__Button {
+  background-color: #EE9F22;
+  width: 3rem;
+  height: 1.6rem;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+}
+
+.Proximamente {
+  margin-top: 8rem;
+  width: 100%;
+  height: 37.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Proximamente h3 {
+  font-size: 5rem;
+}
+
+.containerAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4.9rem 0rem;
+}
+.containerAbout .containerAbout-Card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #212529;
+  border-radius: 3rem;
+  width: 43rem;
+  height: 23rem;
+}
+.containerAbout .containerAbout-Card .containerAbout__Img {
+  width: 15rem;
+  height: 14rem;
+  margin-top: 0.6rem;
+  background-color: #FF9800;
+  border-radius: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../doc/img/personaje/anpermain.png);
+  background-position-x: 0.5rem;
+  background-position-y: 0.5rem;
+}
+.containerAbout .containerAbout-Card .containerAbout__Text {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  color: #9B9D9E;
+}
+.containerAbout .containerAbout-Card .containerAbout__Text b {
+  color: #FFA106;
+}
+
+.containerContact {
+  margin-top: 8.6rem;
+  margin-bottom: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../doc/img/fondo/fondocontact.jpg);
+  width: 100%;
+  height: 37.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.containerContact .containerContact__Title {
+  text-align: center;
+  color: #EBECF0;
+}
+.containerContact .form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.containerContact .form .form-group {
+  margin-bottom: 1.5rem;
+}
+.containerContact .form .form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.containerContact .form .form-group input[type=text],
+.containerContact .form .form-group input[type=email],
+.containerContact .form .form-group textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.containerContact .form .form-group input[type=text]:focus,
+.containerContact .form .form-group input[type=email]:focus,
+.containerContact .form .form-group textarea:focus {
+  border-color: #4d90fe;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(77, 144, 254, 0.2);
+}
+.containerContact .form button[type=submit] {
+  display: block;
+  margin: 1.5rem auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sectionIndex__container1:hover {
+  width: 21rem;
+  height: 21rem;
+}
+
+.sectionIndex__container2:hover {
+  width: 21rem;
+  height: 21rem;
+}
+
+.sectionIndex__container3:hover {
+  width: 21rem;
+  height: 21rem;
+}
+
+.container__Title {
+  margin-top: 10rem;
+  text-align: center;
+  text-decoration: underline;
+}
+.container__Title h3 {
+  font-size: 2.5rem;
+}
+
+@media (min-width: 320px) and (max-width: 769px) {
+  .ContainerHeader img,
+  .containerFooter img {
+    width: 5rem;
+    height: 5rem;
+  }
+  main {
+    margin-top: 6.5rem;
+    height: 40rem;
+  }
+  main .containerMain {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  main .containerMain .containerMain__img {
+    width: 16rem;
+    height: 20rem;
+  }
+  .containerSkills .containerSkills__FrontEnd,
+  .containerSkills .containerSkills__BackEnd,
+  .containerSkills .containerSkills__More {
+    margin: 1rem 0rem;
+  }
+  .containerContact {
+    margin-top: 4rem;
+  }
+  .Proximamente h3 {
+    font-size: 2.5rem;
+  }
+}/*# sourceMappingURL=main.css.map */

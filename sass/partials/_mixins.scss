@@ -1,0 +1,42 @@
+@mixin Logos {
+    img {
+        width: 7rem;
+        height: 7rem;
+        transition: all 1s;
+    }
+
+    img:hover {
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+
+    a {
+        svg {
+            width: 2rem;
+            height: 2rem;
+            color: $color4;
+        }
+    }
+}
+
+@mixin posiciones-Fondos {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin sectionIndex__container {
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include posiciones-Fondos;
+    transition: all 1s;
+}
+
+@mixin Flex-Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
