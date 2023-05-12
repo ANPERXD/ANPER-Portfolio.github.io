@@ -173,6 +173,7 @@ main .containerMain__Text b {
   gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 4.9rem 0rem;
 }
 .containerSkills .containerSkills__FrontEnd,
 .containerSkills .containerSkills__BackEnd,
@@ -213,7 +214,7 @@ main .containerMain__Text b {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 6.4rem 0rem;
+  margin: 11rem 0rem;
   gap: 2rem;
 }
 .containerProjects .containerProjects__pages {
@@ -235,7 +236,7 @@ main .containerMain__Text b {
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
-  margin: 2.8rem;
+  margin: 7.5rem 0rem;
 }
 .containerLaboratory a {
   text-decoration: none;
@@ -269,7 +270,7 @@ main .containerMain__Text b {
 }
 
 .Proximamente {
-  margin-top: 8rem;
+  margin: 11rem 0rem;
   width: 100%;
   height: 37.7rem;
   display: flex;
@@ -284,7 +285,7 @@ main .containerMain__Text b {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 4.9rem 0rem;
+  margin: 9.5rem 0rem;
 }
 .containerAbout .containerAbout-Card {
   display: flex;
@@ -321,14 +322,12 @@ main .containerMain__Text b {
 }
 
 .containerContact {
-  margin-top: 8.6rem;
-  margin-bottom: 0;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../doc/img/fondo/fondocontact.jpg);
   width: 100%;
-  height: 37.1rem;
+  height: 55rem;
   display: flex;
   justify-content: center;
   align-items: center;
